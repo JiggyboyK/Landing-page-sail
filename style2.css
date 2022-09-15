@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Source+Sans+Pro:wght@200&display=swap');
+
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+.container
+{
+    width: 1200px;
+    height: 800px;
+    margin: 70px ;
+}
+
+/* HEADER */
+
+.header
+{
+    background: linear-gradient(92.39deg, #242D80 51.61%, #081C4C 88.27%);
+}
+
+.nav
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav h2
+{
+    /* margin-left: 50px; */
+    color: #FFFFFF;
+    text-align: center;
+    /* letter-spacing: 0.2px; */
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 18px;
+
+}
+
+.buy ul
+{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 310px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.buy ul li
+{
+    list-style: none;
+    margin: 15px;
+}
+
+.buy ul li a 
+{
+    list-style: none;
+    text-decoration: none;
+    color: #EEEAEA;
+}
+
+.buy ul li a:hover
+{
+    color: blue;
+    transition: .3s;
+}
+
+.right-nav
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+#login a 
+{
+    margin-right: 20px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+#login a:hover
+{
+    color: blue;
+    transition: .3s;
+}
+
+#login button
+{
+    border-radius: 10px;
+    padding: 6px;
+}
+
+#login button:hover
+{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+/* SECTION 1 */
+
+.section-1
+{
+    margin-top: 45px;
+}
+
+.section-1 h1
+{
+    display: flex;
+    justify-content: center;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    color: #242222;
+    text-align: center;
+    letter-spacing: 0.2px;
+}
+
+.search-box
+{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.search-box input
+{
+    padding: 5px;
+    border-radius: 5px 0px 0px 5px ;
+    border: 1px solid #E1DDDD;
+}
+
+.search-box button
+{
+    padding: 5px;
+    border-radius: 0px 5px 5px 0px ;
+    background: linear-gradient(131.76deg, #F09A1A 35.84%, #F0BD69 73.59%);
+    color: #FFFFFF;
+    width: 40px;
+    border: transparent;
+}
+
+.btn-sect
+{
+    margin-top: 20px;
+}
+
+.btn-sec1
+{
+    display: flex;
+    justify-content: center;
+}
+
+.btn-sec1 button
+{
+    margin: 5px;
+    background: #FFFFFF;
+    border: 1px solid #232C7F;
+    border-radius: 5px;
+    padding: 5px;
+}
+.btn-sec2
+{
+    display: flex;
+    justify-content: center;
+}
+
+.btn-sec2 button
+{
+    margin: 5px;
+    background: #FFFFFF;
+    border: 1px solid #232C7F;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+/* SECTION 2*/
+
+.section-2 p
+{
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    color: #4F4C4C;
+    margin-top: 15px;
+    margin-left: 65px;
+}
+
+.sec2-img
+{
+    display: flex;
+    justify-content: space-between;
+    margin: -5px;
+}
+
+/* SECTION 3 */
+
+.section-3 p
+{
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    color: #4F4C4C;
+    margin-top: 15px;
+    margin-left: 65px;
+}
+
+.sec3-img
+{
+    display: flex;
+    justify-content: space-between;
+    margin: -5px;
+}
+
+/* SECTION 4 */
+
+.section-4 p
+{
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    color: #4F4C4C;
+    margin-top: 15px;
+    margin-left: 65px;
+}
+
+.sec4-img
+{
+    display: flex;
+    justify-content: space-between;
+    margin: -5px;
+}
+
+/* SECTION 5 */
+
+.section5
+{
+    background: #F4F9FF;
+}
+
+.sec5-head
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px auto;
+    color: #242222;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.sec5-head h5
+{
+    margin: 15px;
+
+}
+
+
+/* .sec5-text p
+{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    margin: 20px;
+    height: 50px;
+    color: #474540;
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+ */
+
+ .sec5-text p
+ {
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #474540;
+    font-size: 15px;
+ }
+
+
+ footer
+{
+    background: #232C7F;
+    display: flex;
+    justify-content: center;
+    padding: 3px;
+}
+
+.foot-text 
+{
+    color: #FFFFFF;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    margin-right: 150px;
+}
+
+.foot-text p
+{
+    margin-top: 15px;
+}
+
+
+.link-tags
+{
+    margin-top: 15px;
+}
+
+.link-tags a img
+{
+    margin-bottom: 25px;
+}
